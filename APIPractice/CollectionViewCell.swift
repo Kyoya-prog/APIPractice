@@ -18,7 +18,7 @@ class CollectionViewCell: UICollectionViewCell {
     
         override func awakeFromNib() {
             super.awakeFromNib()
-            contentView.translatesAutoresizingMaskIntoConstraints = false
+            contentView.translatesAutoresizingMaskIntoConstraints = true
 
             NSLayoutConstraint.activate([
                 contentView.leadingAnchor.constraint(equalTo: leadingAnchor),
