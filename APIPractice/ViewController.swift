@@ -1,20 +1,13 @@
-//
-//  ViewController.swift
-//  APIPractice
-//
-//  Created by 松山響也 on 2020/06/25.
-//  Copyright © 2020 Kyoya Matsuyama. All rights reserved.
-//
+ import UIKit
+ import Foundation
+ import SwiftyJSON
+ import Alamofire
 
-import UIKit
+ class ViewController: UIViewController {
 
-class ViewController: UIViewController {
-
+    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        super .viewDidLoad()
+        
     }
-
-
-}
-
+ }
