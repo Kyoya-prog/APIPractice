@@ -9,5 +9,6 @@
     override func viewDidLoad() {
         super .viewDidLoad()
          print("アイウエオ")
+        print("書きくけこ")
     }
  }
