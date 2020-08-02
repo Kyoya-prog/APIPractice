@@ -10,5 +10,6 @@
         super .viewDidLoad()
          print("アイウエオ")
         print("書きくけこ")
+        print("さしすせそ")
     }
  }
